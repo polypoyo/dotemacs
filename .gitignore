@@ -1,0 +1,11 @@
+/games
+# history
+/places
+/history
+/recentf
+/eshell
+# don't save tempfiles
+*~
+# automatically downloaded by init.el
+/elpa
+/transient

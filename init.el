@@ -57,7 +57,7 @@
 (use-package 
   org
   ;; Settings when not presenting
-  (defun my/org-present-end () 
+  :init (defun my/org-present-end () 
 	(interactive) 
 	(text-scale-set 1) 
 	(visual-fill-column-mode -1) 
@@ -69,7 +69,7 @@
 	(display-line-numbers--turn-on) 
 	(read-only-mode -1))
   ;; Settings when presenting
-  (defun my/org-present () 
+  :init (defun my/org-present () 
 	(interactive) 
 	(text-scale-set 3) 
 	(visual-fill-column-mode 1) 

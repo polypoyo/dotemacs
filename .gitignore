@@ -9,3 +9,9 @@
 # automatically downloaded by init.el
 /elpa
 /transient
+/quelpa
+/url
+/.cache
+/eln-cache
+/site-lisp
+/auto-save-list

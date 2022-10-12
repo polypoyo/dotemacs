@@ -15,3 +15,7 @@
 /eln-cache
 /site-lisp
 /auto-save-list
+# idk what these are but i definately didn't make them myself so they go
+network-security.data
+tramp
+.lsp-session-v1

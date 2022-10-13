@@ -33,14 +33,11 @@
 ;; I use NixOS so this is very important
 (use-package 
   nix-mode)
-(use-package 
-  lua-mode)
-(use-package 
-  rust-mode)
+(use-package lua-mode)
+(use-package rust-mode)
 ;; COMplete ANYthing
-(use-package 
-  company 
-  :init (add-hook 'after-init-hook 'global-company-mode))
+(use-package company 
+  :hook ((after-init . global-company-mode)))
 (use-package 
   eshell-vterm 
   :quelpa (eshell-vterm :fetcher github 
